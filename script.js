@@ -1,4 +1,4 @@
-// // // * DOM essentials
+// * DOM essentials
 const inputArea = document.querySelector("input");
 
 const CurrentConditionBtn = document.querySelector(".currentConditionBtn");
