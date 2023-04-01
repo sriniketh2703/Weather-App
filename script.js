@@ -14,7 +14,7 @@ const headers = {
 
 CurrentConditionBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  const URL = `http://api.weatherapi.com/v1/current.json?key=${headers.key}&q=${inputArea.value}&aqi=no`;
+  const URL = `https://api.weatherapi.com/v1/current.json?key=${headers.key}&q=${inputArea.value}&aqi=no`;
 
   fetch(URL, { headers })
     .then((response) => {
