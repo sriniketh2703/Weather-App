@@ -37,7 +37,7 @@ CurrentConditionBtn.addEventListener("click", (e) => {
       paragraph[3].textContent = `Humidity: ${data.current.humidity}%`;
       inputArea.value = "";
 
-      * Manually reloading the page after 10 seconds.
+      // * Manually reloading the page after 10 seconds.
       setTimeout(() => {
         window.location.reload();
       }, 10000);
